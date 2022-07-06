@@ -1,7 +1,7 @@
 # Natallia Kacharhina
 *28.08.1997*
 
-![My image](rsschool-cv\Images\IMG.jpg "my photo")
+![My image](Images\IMG.jpg "my photo")
 ## Contacts
 +375 29 501 41 97
 
