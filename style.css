@@ -105,7 +105,8 @@ pre {
   width: fit-content;
 }
 .footer {
-    word-spacing: 10px;
+  text-align: center;
+  word-spacing: 10px;
 }
 .table {
   table-layout: auto;
@@ -128,4 +129,7 @@ th {
 #education {
   width: 70%;
   text-align: justify;
+}
+#work {
+  text-align: center;
 }
