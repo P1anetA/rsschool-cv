@@ -1,0 +1,131 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+    font-size: 22px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    list-style-position: inside;
+    flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.header {
+  position: fixed;
+}
+.nav-list {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    height: fit-content;
+    background-color: #ffffff;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;   
+    font-size: 22px;
+    color: rgb(98, 0, 255);
+    transition: 0.5s ;
+  }
+.nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(26, 27, 71, 0.589);
+    font-size: 26px;
+  }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.link {
+    color: rgb(98, 0, 255);
+    transition: color 0.5s;
+}
+
+.link:hover {
+  color: #ffffff;
+  background-color: rgba(26, 27, 71, 0.589);
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section-title {
+  color: rgb(81, 65, 95);
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: underline;
+  line-height: 200%
+}
+.photo {
+  display: block;
+  width: 225px;
+  height: 330px;
+  border-radius: 20%;
+}
+.footer {
+  padding: 5px;
+  display: inline;
+  white-space:nowrap
+}
+pre {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgba(98, 0, 255, 0.747);
+  text-align: left;
+  padding: 5px;
+  width: fit-content;
+}
+.footer {
+    word-spacing: 10px;
+}
+.table {
+  table-layout: auto;
+}
+.name {
+  font-variant: small-caps;
+  font-size: 60px;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+.section {
+  padding-right: 10px;
+}
+#summary {
+  width: 70%;
+  text-align: justify;
+}
+#education {
+  width: 70%;
+  text-align: justify;
+}
