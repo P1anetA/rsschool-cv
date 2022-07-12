@@ -20,32 +20,44 @@
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                   <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
                   <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Completed projects</a></li>
                   <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
                 </ul>
               </nav>
         </div> 
-    </header>
+    </header> 
+    <center>
     <main class="main-container">
+        
         <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Natallia Kacharhina</h1>
-                <p>28.08.1997</p>
-                <img class="photo" src="IMG.jpg" alt="Photo of the applicant" width="200" height="300">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th><section class="section" id="profile">
+                <h1 class="section-title"> <span class="name">Natallia Kacharhina</span></h1>
+                <p>28.08.1997</p> </th>
+                <th> <img class="photo" src="IMG.jpg" alt="Photo of the applicant" width="200" height="300"> </th>
             </section>
+            <th style="width: 30%;">
             <section class="section" id="contacts">
                 <h2 class="section-title"> Contacts</h2>
                 <ul>
                     <p>+375 29 501 41 97</p>
                     <p>Minsk, Belarus</p>
                     <p>natkoch09@gmail.com</p>
-                    <p> <a class="bold" href="http://linkedin.com/in/natallia-kacharhina-836782171/">LinkedIn</a></p>
+                    <p> <a class="bold, link" href="http://linkedin.com/in/natallia-kacharhina-836782171/">LinkedIn</a></p>
                     <p> <span class="bold">Discord:</span> Natallia @P1lanetA</p>
                 </ul>
-            </section>
-            <section class="section" id="summary">
+            </section> </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"> <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
                 <p>I want to obtain a challenging position where I can maximize my analytical skills, research and writing abilities. organizational and interpersonal skills to make a positive contribution to an organization.</p>
-            </section>
+            </section> </td>
+            <td>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <ul>
@@ -54,7 +66,7 @@
                     <li class="list">Git, GitHub</li>
                     <li class="list">VS Code</li>
                 </ul>  
-                <p>Secondary:</p>
+                <p class="italic">Secondary:</p>
                 <ul>
                     <li class="list">Microsoft Office</li>
                     <li class="list">IBM SPSS Statistics</li>
@@ -64,36 +76,48 @@
                     <li class="list">Problem Solving</li>
                     <li class="list">Work with big amounts of data</li>
                 </ul>
-            </section>
+            </section> </td>
+        </tr>
+        <tr>
+            <td colspan="2"> 
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <p>International Sakharov Environmental Institute of Belarusian State University, Minsk, Belarus – bachelor - <span class="bold">Ecologist-expert</span></p>
-                <p>SEPTEMBER 2014 – JUNE 2018</p>
-            </section>
+                <p>September 2014 – June 2018</p>
+            </section> </td>
+            <td>
             <section class="section" id="lang">
                 <h2 class="section-title">Languages</h2>
                 <ul>
-                    <li>English - fluent <a href="https://www.efset.org/cert/cT4mfw">EF SET English Certificate 84/100 (C2 Proficient)</a> </li>
+                    <li>English - fluent <a href="https://www.efset.org/cert/cT4mfw" class="link">EF SET English Certificate 84/100 (C2 Proficient)</a> </li>
                     <li>German - basic</li>
                     <li>Russian - native</li>
                     <li>Belarusian - native</li>
                 </ul>
-            </section>
+            </section> </td> </tr>
+            <tr>
+                <td colspan="2"> 
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
                 <code>  <pre> 
-                function multiply (a, b) {
-                return a * b    
-                }; </pre></code>
-                <h3>Completed projects</h3>
-                <a href="https://github.com/P1anetA/rsschool-cv.git">My CV</a>
-            </section>
+function multiply (a, b) {
+return a * b    
+}; </pre></code> </section> </td> 
+                <td>
+                <section class="section" id="projects">
+                <h3 class="section-title">Completed projects</h3>
+                <a class="link" href="https://github.com/P1anetA/rsschool-cv.git">My CV</a> 
+            </section></td>
+            </tr>
+        </tbody>
+        </table>
+
             <section class="section" id="work">
                 <h2 class="section-title">Work experience</h2>
                 <p class="bold">Scientific practical center of hygiene</p>
                 <p>Minsk, Belarus</p>
                 <p class="italic">Specialist at Radiation Safety laboratory</p>
-                <p class="italic">JANUARY 2019 – PRESENT</p>
+                <p class="italic">January 2019 – Present</p>
                 <ul>
                     <li>Scientific projects planning, drafting and execution within the framework of state scientific and technical programs (preparation of such documentation as: technical assignment, calendar plan, feasibility study, etc.)</li>
                     <li>Working under commercial contracts, supervising co-executors and contractors Development of norms and regulation in the field of radiation protection of the public of the Republic of Belarus</li>
@@ -104,12 +128,14 @@
                 </ul>
             </section>
         </div>  
+    
     </main>
     <footer class="footer"> 
         <div class="container">
-            <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="RS school logo" width="70" height="50"> </a> <a href="https://github.com/P1anetA">Github</a> 2022 
+            <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="RS school logo" height="25"> </a>        <a class="link" href="https://github.com/P1anetA">Github</a>       2022</pre> 
         </div> 
     </footer>
+</center>
   </body>
 </html>
 
