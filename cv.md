@@ -3,7 +3,7 @@
 
 ![My image](IMG.jpg "my photo")
 ## Contacts
-+375 29 501 41 97
++375-29-501-41-97
 
 Minsk, Belarus
 
@@ -52,8 +52,8 @@ Belarusian - native
 ### **Code example:**
 
 ```
-function multiply (a, b) {
-    return a * b    
+function solution(str, ending){  
+ return ending === str.substr(str.length - ending.length);   
 }
 ```
 ### **Completed projects**
